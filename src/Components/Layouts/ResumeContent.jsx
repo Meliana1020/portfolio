@@ -3,7 +3,7 @@ const ResumeContent = () => {
     <>
       <div className="m-6 text-white mt-16">
         <div className="flex flex-row border  p-2 rounded-lg w-fit mb-12">
-          <img src="/public/clarity_tools.svg" alt="" className="w-4" />
+          <img src="./public/clarity_tools.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">RESUME</p>
         </div>
 

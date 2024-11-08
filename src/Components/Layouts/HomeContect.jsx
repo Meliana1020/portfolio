@@ -2,7 +2,7 @@ const HomeContent = () => {
     return(
         <div className="m-6 mt-20 text-white">
         <div className="flex flex-row border  p-2 rounded-lg w-fit justify-start mb-10">
-          <img src="/public/home.svg" alt="" className="w-4" />
+          <img src="./public/home.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">INTRODUCE</p>
         </div>
             <h1 className="text-2xl font-bold mb-2">Say Hi From Meliana,</h1>

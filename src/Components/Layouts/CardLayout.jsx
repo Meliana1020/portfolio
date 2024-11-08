@@ -9,7 +9,7 @@ const CardLayout = () => {
           </div>
           <img
             className="rounded-lg mx-auto w-full sm:w-full h-auto"
-            src="/public/profile.jpg"
+            src="./public/profile.jpg"
             alt="Meliana"
           />
           <div className="m-2">
@@ -20,10 +20,10 @@ const CardLayout = () => {
             Work With Me
           </button>
           <div className="flex justify-center gap-8 mt-4">
-            <img className="w-6 h-8 md:w-8 md:h-8" src="/public/linkedin.svg" alt="LinkedIn" />
-            <img className="w-8 h-8 md:w-8 md:h-8" src="/public/github.svg" alt="GitHub" />
-            <img className="w-6 h-8 md:w-8 md:h-8" src="/public/medium.svg" alt="Medium" />
-            <img className="w-6 h-8 md:w-8 md:h-8" src="/public/instagram.svg" alt="Instagram" />
+            <img className="w-6 h-8 md:w-8 md:h-8" src="./public/linkedin.svg" alt="LinkedIn" />
+            <img className="w-8 h-8 md:w-8 md:h-8" src="./public/github.svg" alt="GitHub" />
+            <img className="w-6 h-8 md:w-8 md:h-8" src="./public/medium.svg" alt="Medium" />
+            <img className="w-6 h-8 md:w-8 md:h-8" src="./public/instagram.svg" alt="Instagram" />
           </div>
           <div className="flex justify-center mt-4">
             <p className="text-xs md:text-sm">© 2024 Meliana. All Rights Reserved</p>
