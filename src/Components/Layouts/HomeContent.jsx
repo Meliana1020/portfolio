@@ -1,8 +1,8 @@
 const HomeContent = () => {
     return(
-        <div className="m-6 mt-20 text-white">
+        <div className="m-6 mt-20 text-white" id="home">
         <div className="flex flex-row border  p-2 rounded-lg w-fit justify-start mb-10">
-          <img src="./public/home.svg" alt="" className="w-4" />
+          <img src="/home.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">INTRODUCE</p>
         </div>
             <h1 className="text-2xl sm:text-9xl font-base mb-2">Say Hi From Meliana,</h1>

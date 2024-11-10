@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 import SidebarMenu from "../Components/Elements/SidebarMenu/sidebarMenu";
 import CardLayout from "../Components/Layouts/CardLayout";
-import HomeContent from "../Components/Layouts/HomeContect";
+import HomeContent from "../Components/Layouts/HomeContent";
 import ProfileContent from "../Components/Layouts/ProfileContent";
 import ResumeContent from "../Components/Layouts/ResumeContent";
 import PortfolioContent from "../Components/Layouts/PortfolioContent";
 import SkillsContent from "../Components/Layouts/SkillsContent";
+import { ContactContent } from "../Components/Layouts/ContactContent";
 
 const MainPage = () => {
   return (
@@ -22,6 +23,7 @@ const MainPage = () => {
           <ResumeContent />
           <SkillsContent />
           <PortfolioContent />
+          
         </div>
       </div>
     </>
