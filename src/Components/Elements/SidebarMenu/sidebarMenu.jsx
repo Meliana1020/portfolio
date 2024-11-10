@@ -3,13 +3,13 @@ import { Link} from 'react-scroll';
 
 const SidebarMenu = () => {
   return (
-    <div className="justify-between py-6 bg-zinc-700 mt-40 sm:mt-40 fixed right-0 top-2/3 sm:top-1/2 sm:transform sm:-translate-y-1/2 md:right-0 lg:top-1/4 flex flex-row lg:flex-col items-center sm:justify-between sm:gap-2 m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 sm:pt-4 sm:pb-4">
+    <div className="overflow justify-between py-6 bg-zinc-700 mt-40 sm:mt-40 fixed top-2/3 sm:top-1/2 sm:transform sm:-translate-y-1/2 md:right-0 lg:top-1/4 flex flex-row lg:flex-col items-center sm:justify-between sm:gap-2 m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 sm:pt-4 sm:pb-4">
       <Link
         activeClass="active bg-orange-400 rounded-full scale-50"
         to="home"
         spy={true}
         smooth={true}
-        offset={100}
+        offset={-100}
         duration={500}
         className="p-4 sm:py-5"
       >
