@@ -11,7 +11,7 @@ const ResumeContent = () => {
         <div className="flex flex-row">
           <div className="flex flex-col">
             <div className="border-slate-300 border rounded-xl w-4 h-4 "></div>
-            <div className="bg-slate-300 w-[0.5px] h-24 ml-2"></div>
+            <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 ml-2"></div>
           </div>
           <div className="ml-4">
             <div className="text-lg">2024</div>
@@ -23,7 +23,7 @@ const ResumeContent = () => {
         <div className="flex flex-row">
           <div className="flex flex-col">
             <div className="border-slate-300 border rounded-xl w-4 h-4 "></div>
-            <div className="bg-slate-300 w-[0.5px] h-24 ml-2"></div>
+            <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 ml-2"></div>
           </div>
           <div className="ml-4">
             <div className="text-lg">2022</div>
@@ -36,7 +36,7 @@ const ResumeContent = () => {
         <div className="flex flex-row">
           <div className="flex flex-col">
             <div className="border-slate-300 border rounded-xl w-4 h-4 "></div>
-            <div className="bg-slate-300 w-[0.5px] h-24 ml-2"></div>
+            <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 ml-2"></div>
           </div>
           <div className="ml-4">
             <div className="text-lg">2019 - 2024</div>
@@ -48,7 +48,7 @@ const ResumeContent = () => {
         <div className="flex flex-row">
           <div className="flex flex-col">
             <div className="border-slate-300 border rounded-xl w-4 h-4 "></div>
-            <div className="bg-slate-300 w-[0.5px] h-24 ml-2"></div>
+            <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 ml-2"></div>
           </div>
           <div className="ml-4">
             <div className="text-lg">2016-2019</div>

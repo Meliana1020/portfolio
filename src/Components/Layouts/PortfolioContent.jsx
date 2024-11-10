@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 const PortfolioContent = () => {
   return (
     <>
-      <div className="m-6 text-white mt-24">
+      <div className="m-6 text-white mt-24 sm:mr-24">
         <div className="flex flex-row border  p-2 rounded-lg w-fit mb-12">
           <img src="./public/clarity_tools.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">PORTFOLIOS</p>
@@ -83,7 +83,7 @@ const PortfolioContent = () => {
           <figure>
             <img
               className="brightness-50 hover:brightness-100"
-              src="./public/thumbnail edu.svg"
+              src="./public/thumbnail porto.png"
               alt="todolist"
             />
           </figure>

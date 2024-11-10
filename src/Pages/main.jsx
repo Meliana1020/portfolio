@@ -6,18 +6,25 @@ import ProfileContent from "../Components/Layouts/ProfileContent";
 import ResumeContent from "../Components/Layouts/ResumeContent";
 import PortfolioContent from "../Components/Layouts/PortfolioContent";
 import SkillsContent from "../Components/Layouts/SkillsContent";
-const MainPage = () => {
 
+const MainPage = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col">
-      <CardLayout />
-        <SidebarMenu />
-     <HomeContent/>
-     <ProfileContent/>
-     <ResumeContent/>
-     <SkillsContent/>
-     <PortfolioContent/>
-    </div>
+    <>
+      <SidebarMenu />
+      <div className="bg-black min-h-screen flex flex-col sm:flex-row">
+        <div className="sm:fixed p-4">
+          <CardLayout />
+        </div>
+
+        <div className="sm:ml-[30%] p-4">
+          <HomeContent />
+          <ProfileContent />
+          <ResumeContent />
+          <SkillsContent />
+          <PortfolioContent />
+        </div>
+      </div>
+    </>
   );
 };
 

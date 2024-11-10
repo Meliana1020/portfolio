@@ -5,9 +5,9 @@ const HomeContent = () => {
           <img src="./public/home.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">INTRODUCE</p>
         </div>
-            <h1 className="text-2xl font-bold mb-2">Say Hi From Meliana,</h1>
-            <h1 className="text-xl font-bold mb-2">Front End Developer</h1>
-            <p className="text-lg mb-4 text-zinc-400 mt-2">
+            <h1 className="text-2xl sm:text-9xl font-base mb-2">Say Hi From Meliana,</h1>
+            <h1 className="text-xl sm:text-6xl font-base mb-2">Front End Developer</h1>
+            <p className="text-lg mb-4 text-neutral-500 mt-2 sm:mr-20">
             I enjoy designing and transforming designs into efficient code. My
             enthusiasm for creating
             <p>
