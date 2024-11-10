@@ -96,7 +96,7 @@ const PortfolioContent = () => {
           <figure>
             <img
               className="brightness-50 hover:brightness-100"
-              src="./public/thumbnail porto.png"
+              src="/thumbnail porto.png"
               alt="todolist"
             />
           </figure>
@@ -109,19 +109,19 @@ const PortfolioContent = () => {
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/js.svg"
+                src="/js.svg"
                 alt=""
               />
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/reactt.svg"
+                src="/reactt.svg"
                 alt=""
               />
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/tailwind.svg"
+                src="/tailwind.svg"
                 alt=""
               />
             </div>
@@ -138,7 +138,7 @@ const PortfolioContent = () => {
           <figure>
             <img
               className="brightness-50 hover:brightness-100"
-              src="./public/case study8.png"
+              src="/case study8.png"
               alt="todolist"
             />
           </figure>
@@ -154,7 +154,7 @@ const PortfolioContent = () => {
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/figma.svg"
+                src="/figma.svg"
                 alt=""
               />
             </div>
@@ -171,7 +171,7 @@ const PortfolioContent = () => {
           <figure>
             <img
               className="brightness-50 hover:brightness-100"
-              src="./public/SkyEdu.png"
+              src="/SkyEdu.png"
               alt="todolist"
             />
           </figure>
@@ -185,7 +185,7 @@ const PortfolioContent = () => {
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/figma.svg"
+                src="/figma.svg"
                 alt=""
               />
             </div>
@@ -202,7 +202,7 @@ const PortfolioContent = () => {
           <figure>
             <img
               className="brightness-50 hover:brightness-100"
-              src="./public/mockup laundry app 1.png"
+              src="/mockup laundry app 1.png"
               alt="todolist"
             />
           </figure>
@@ -216,7 +216,7 @@ const PortfolioContent = () => {
               <img
                 className="w-8 brightness-50 hover:brightness-100
                 "
-                src="./public/figma.svg"
+                src="/figma.svg"
                 alt=""
               />
             </div>
