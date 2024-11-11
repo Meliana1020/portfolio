@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-import { fadeIn } from "../Elements/Motion/variant";
 
 const ProfileContent = () => {
   return (
@@ -9,12 +7,6 @@ const ProfileContent = () => {
         <p className="pl-2 text-xs">ABOUTE ME</p>
       </div>
 
-      <motion.div
-        variants={fadeIn("up", 0.1)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.3 }}
-      >
         <div className="relative flex items-center">
           <div className="text-xl font-semibold">
             <div className="flex flex-row">
@@ -28,9 +20,25 @@ const ProfileContent = () => {
             <div className="flex flex-row">
               <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
               <p className="text-medium font-normal">
+                Email : melianaa1020@gmail.com
+              </p>
+            </div>
+            
+            <div>
+            <div className="flex flex-row">
+              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
+              <p className="text-medium font-normal">
+                Adress : Puurbalingga, Jawa Tengah
+              </p>
+            </div>
+            <div className="flex flex-row">
+              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
+              <p className="text-medium font-normal">
                 Phone : +62-857-1835-4228
               </p>
             </div>
+            </div>
+            
           </div>
         </div>
 
@@ -56,7 +64,6 @@ const ProfileContent = () => {
         </div>
 
         <footer className="mt-10"></footer>
-      </motion.div>
     </div>
   );
 };

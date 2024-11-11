@@ -10,10 +10,10 @@ const HomeContent = () => {
             <p className="text-lg mb-4 text-neutral-500 mt-2 sm:mr-20">
             I enjoy designing and transforming designs into efficient code. My
             enthusiasm for creating
-            <p>
+            
             beautiful and functional websites is always my motivation, and I
             love what I do.{" "}
-          </p>
+          
         </p>
         <footer className="mt-10"></footer>
       </div>
