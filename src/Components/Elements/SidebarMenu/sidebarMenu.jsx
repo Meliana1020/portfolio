@@ -9,7 +9,7 @@ const SidebarMenu = () => {
         to="home"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-500}
         duration={50}
         className="p-4 sm:py-5"
       >
@@ -25,7 +25,7 @@ const SidebarMenu = () => {
         to="profile"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-500}
         duration={50}
         className="p-4 sm:py-5"
       >
@@ -41,7 +41,7 @@ const SidebarMenu = () => {
         to="resume"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-500}
         duration={50}
         className="p-4 sm:py-5"
       >
@@ -57,7 +57,7 @@ const SidebarMenu = () => {
         to="skills"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-500}
         duration={50}
         className="p-4 sm:py-5"
       >
@@ -73,7 +73,7 @@ const SidebarMenu = () => {
         to="porto"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-500}
         duration={50}
         className="p-4 sm:py-5"
       >
