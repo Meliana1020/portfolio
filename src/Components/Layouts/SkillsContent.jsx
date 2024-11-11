@@ -8,14 +8,14 @@ const SkillsContent = () => {
         </div>
         
         <div className="flex flex-row w-20 sm:w-32 mb-6 brightness-100">
-            <img className="hover:brightness-50 mr-4" src="./public/html.svg" alt="" />
-            <img className="hover:brightness-50 mr-4" src="./public/css.svg" alt="" />
-            <img className="mb-2 mr-4" src="./public/js.svg" alt="" />
+            <img className="hover:brightness-50 mr-4" src="/html.svg" alt="" />
+            <img className="hover:brightness-50 mr-4" src="/css.svg" alt="" />
+            <img className="mb-2 mr-4" src="/js.svg" alt="" />
           </div>
           <div className="flex flex-row w-16 sm:w-32">
-            <img className="hover:brightness-50 mr-10" src="./public/reactt.svg" alt="" />
-            <img className="hover:brightness-50 mr-8" src="./public/tailwind.svg" alt="" />
-            <img className="hover:brightness-50 mr-4" src="./public/git.svg" alt="" />
+            <img className="hover:brightness-50 mr-10" src="/reactt.svg" alt="" />
+            <img className="hover:brightness-50 mr-8" src="/tailwind.svg" alt="" />
+            <img className="hover:brightness-50 mr-4" src="/git.svg" alt="" />
           </div>  
        
       </div>
