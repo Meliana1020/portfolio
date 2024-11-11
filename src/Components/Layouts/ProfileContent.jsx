@@ -8,36 +8,33 @@ const ProfileContent = () => {
       </div>
 
         <div className="relative flex items-center">
-          <div className="text-xl font-semibold">
+          <div className="text-xl font-semibold leading-relaxed">
             <div className="flex flex-row">
-              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
-              <p className="text-medium font-normal">Name : Meliana</p>
-            </div>
-            <div className="flex flex-row">
-              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
-              <p className="text-medium font-normal">Age : 24 years old</p>
+              <div className="bg-orange-500 rounded-xl w-1 h-3 mr-2"></div>
+              <h1 className="text-lg font-medium mr-2">Name : </h1>
+              <p className="text-lg font-normal ">Meliana</p>
             </div>
             <div className="flex flex-row">
-              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
-              <p className="text-medium font-normal">
-                Email : melianaa1020@gmail.com
-              </p>
-            </div>
-            
-            <div>
-            <div className="flex flex-row">
-              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
-              <p className="text-medium font-normal">
-                Adress : Puurbalingga, Jawa Tengah
-              </p>
+              <div className="bg-orange-500 rounded-xl w-1 h-3 mr-2"></div>
+              <h1 className="text-lg font-medium mr-2">Age :</h1>
+              <p className="text-lg font-normal ">24 years old</p>
             </div>
             <div className="flex flex-row">
-              <div className="bg-zinc-200 rounded-xl w-2 h-2 m-2"></div>
-              <p className="text-medium font-normal">
-                Phone : +62-857-1835-4228
-              </p>
+              <div className="bg-orange-500 rounded-xl w-1 h-3 mr-2"></div>
+              <h1 className="text-lg font-medium mr-2">Email:  </h1>
+              <p className="text-lg font-normal ">meliana1020@gmail.com</p>
             </div>
+            <div className="flex flex-row">
+              <div className="bg-orange-500 rounded-xl w-1 h-3 mr-2"></div>
+              <h1 className="text-lg font-medium mr-2">Adress:</h1>
+              <p className="text-lg font-normal ">Purbalingga, Jawa Tengah</p>
             </div>
+            <div className="flex flex-row">
+              <div className="bg-orange-500 rounded-xl w-1 h-3 mr-2"></div>
+              <h1 className="text-lg font-medium mr-2">Phone : </h1>
+              <p className="text-lg font-normal ">+6285718354228</p>
+            </div>
+
             
           </div>
         </div>
