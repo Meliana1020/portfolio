@@ -17,7 +17,10 @@ const CardLayout = () => {
             <p className=" text-lg font-bold md:text-sm mb-2 sm:m-22">Purbalingga, Jawa Tengah</p>
             <p className="text-sm md:text-sm">melianaa1020@gmail.com</p>
           </div>
-          <button className="mt-2 bg-gray-300 text-black text-xs md:text-sm font-medium py-2 px-4 rounded-lg w-full">
+          <button className="mt-2 bg-gray-300 text-black text-xs md:text-sm font-medium py-2 px-4 rounded-lg w-full"
+           onClick={() =>
+            (window.location.href = "https://drive.google.com/drive/folders/1N-UjSFQMvyDlNUHp0us_CuJDej0_d7De")
+          }>
             Download CV
           </button>
 
