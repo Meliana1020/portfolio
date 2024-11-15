@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const PortfolioContent = () => {
   return (
     <>
-      <div className="m-6 text-white mt-24 sm:mr-24" id="porto">
+      <div className="text-white mt-24 sm:mr-24 w-full" id="porto">
         <div className="flex flex-row border  p-2 rounded-lg w-fit mb-12">
           <img src="/clarity_tools.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">PORTFOLIOS</p>

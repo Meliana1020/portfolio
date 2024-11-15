@@ -3,9 +3,9 @@ const CardLayout = () => {
     <div className="w-full h-full">
       <div className="bg-black text-white flex flex-col lg:flex-row items-center justify-start m-4">
         <div className="rounded-lg shadow-lg py-4 px-4 w-full text-center text-white border sm:max-w-sm">
-          <div className="flex flex-row sm:flex-row items-center sm:justify-between sm:gap-4 gap-20 mb-2 sm:mb-">
-            <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-2xl lg:text-3xl">Meliana</h1>
-            <p className="text-base md:text-sm sm:mt-2">Front End Developer</p>
+          <div className="flex flex-row sm:flex-row items-center sm:justify-between sm:gap-4 gap-32 mb-2 sm:mb-">
+            <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-3xl lg:text-3xl">Meliana</h1>
+            <p className="text-sm md:text-base sm:text-base sm:mt-2">Front End Developer</p>
           </div>
           <img
             className="rounded-lg mx-auto w-full h-auto sm:w-full"
@@ -58,10 +58,6 @@ const CardLayout = () => {
               }
               />
           </div>
-          {/* <div className="mb-4 mt-4 sm:m-2 flex flex-col items-start">
-            <p className="text-xs md:text-sm mb-2 sm:m-22">melianaa1020@gmail.com</p>
-            <p className="text-xs md:text-sm">Purbalingga, Jawa Tengah</p>
-          </div> */}
           
           <div className="flex justify-center mt-4 sm:mt-2">
             <p className="text-xs md:text-sm">© 2024 Meliana. All Rights Reserved</p>

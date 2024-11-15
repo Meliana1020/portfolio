@@ -3,7 +3,7 @@ import { Link} from 'react-scroll';
 
 const SidebarMenu = () => {
   return (
-    <div className="fixed right-0 bottom-0.5 sm:bottom-24 justify-between py-6 bg-zinc-700  md:right-0 flex flex-row lg:flex-col items-center sm:justify-between sm:gap-2 m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 sm:pt-4 sm:pb-4">
+    <div className="fixed right-0 bottom-0.5 sm:bottom-24 justify-between py-6 bg-zinc-700   flex flex-row lg:flex-col md:flex-col sm:flex-col items-center sm:justify-between sm:gap-2 m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 sm:pt-4 sm:pb-4">
       <Link
         activeClass="active bg-orange-400 rounded-full scale-50"
         to="home"
@@ -14,7 +14,7 @@ const SidebarMenu = () => {
         className="p-4 sm:py-5"
       >
         <img
-          className="brightness-100 hover:brightness-50 rounded-full w-6 "
+          className="brightness-100 hover:brightness-50 rounded-full w-6"
           src="/home.svg"
           alt="home icon"
         />
@@ -83,29 +83,6 @@ const SidebarMenu = () => {
           alt="portfolio icon"
         />
       </Link>
-
-      {/* <Link
-        activeClass="active bg-orange-400 rounded-full  scale-50"
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={500}
-        className="p-4 sm:py-5"
-      >
-        <img
-          className="brightness-100 hover:brightness-50 active:brightness-50 rounded-full w-6"
-          src="/chat.svg"
-          alt="chat icon"
-        />
-      </Link> */}
-
-      {/* <button className="p-3 rounded-full hover:bg-gray-600 active:bg-orange-600">
-        <img src="/public/setting.svg" alt="settings icon" />
-      </button>
-      <button className="p-3 rounded-full hover:bg-gray-600 active:bg-orange-600">
-        <img src="/public/chat.svg" alt="chat icon" />
-      </button> */}
     </div>
   );
 };
