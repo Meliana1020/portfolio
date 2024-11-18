@@ -10,7 +10,7 @@ const SidebarMenu = () => {
         spy={true}
         smooth={true}
         offset={-80}
-        duration={25}
+        duration={50}
         className="p-4 sm:py-5"
       >
         <img
@@ -26,7 +26,7 @@ const SidebarMenu = () => {
         spy={true}
         smooth={true}
         offset={-80}
-        duration={25}
+        duration={50}
         className="p-4 sm:py-5"
       >
         <img
@@ -41,8 +41,8 @@ const SidebarMenu = () => {
         to="resume"
         spy={true}
         smooth={true}
-        offset={-70}
-        duration={25}
+        offset={-80}
+        duration={50}
         className="p-4 sm:py-5"
       >
         <img
@@ -58,7 +58,7 @@ const SidebarMenu = () => {
         spy={true}
         smooth={true}
         offset={-80}
-        duration={25}
+        duration={50}
         className="p-4 sm:py-5"
       >
         <img
@@ -74,7 +74,7 @@ const SidebarMenu = () => {
         spy={true}
         smooth={true}
         offset={-80}
-        duration={25}
+        duration={50}
         className="p-4 sm:py-5"
       >
         <img
