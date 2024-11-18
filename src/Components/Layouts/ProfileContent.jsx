@@ -6,7 +6,7 @@ const ProfileContent = () => {
         <img src="/clarity_tools.svg" alt="" className="w-4" />
         <p className="pl-2 text-xs">ABOUTE ME</p>
       </div>
-
+        
         <div className="relative flex items-center">
           <div className="text-xl font-semibold leading-relaxed">
             <div className="flex flex-row">

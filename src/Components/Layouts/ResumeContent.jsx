@@ -6,7 +6,7 @@ const ResumeContent = () => {
           <img src="/clarity_tools.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">RESUME</p>
         </div>
-
+        
         <div className="text-2xl font-semibold mb-6">Experience & Certification</div>
         <div className="flex flex-row">
           <div className="flex flex-col">

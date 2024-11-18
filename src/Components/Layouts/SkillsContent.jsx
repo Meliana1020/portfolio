@@ -7,7 +7,7 @@ const SkillsContent = () => {
           <p className="pl-2 text-xs">SKILLS</p>
         </div>
 
-        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6 w-full md:w-[450px] lg:w-[450px] sm:w-[350px] brightness-100">
+        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6 w-full md:w-[250px] lg:w-[450px] sm:w-[350px] brightness-100">
           <img
             className="hover:brightness-50"
             src="/html.svg"

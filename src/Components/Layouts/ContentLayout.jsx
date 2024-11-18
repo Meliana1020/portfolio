@@ -6,7 +6,7 @@ import PortfolioContent from "./PortfolioContent";
 
 const ContentLayout = () => {
     return(
-        <div className="sm:mr-[80px] sm:ml-[60px] md:ml-[430px] p-4">
+        <div className="sm:ml-[60px] md:ml-[430px] p-4">
           <HomeContent/>
           <ProfileContent/>
           <ResumeContent/>
