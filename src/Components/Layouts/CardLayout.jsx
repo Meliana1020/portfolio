@@ -4,7 +4,7 @@ const CardLayout = () => {
       <div className="bg-black text-white flex flex-col lg:flex-row items-center justify-start m-4">
         <div className="rounded-lg shadow-lg py-4 px-4 w-full text-center text-white border sm:max-w-sm">
           <div className="flex flex-row sm:flex-row items-center sm:justify-between sm:gap-4 gap-32 mb-2 sm:mb-">
-            <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-3xl lg:text-3xl">Meliana</h1>
+            <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-3xl text-yellow-400 lg:text-3xl sm:text-orange-500 lg:text-red-600 md:text-blue-600">Meliana</h1>
             <p className="text-sm md:text-base sm:text-base sm:mt-2">Front End Developer</p>
           </div>
           <img

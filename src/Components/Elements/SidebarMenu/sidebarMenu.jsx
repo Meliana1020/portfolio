@@ -3,7 +3,7 @@ import { Link} from 'react-scroll';
 
 const SidebarMenu = () => {
   return (
-    <div className="fixed right-7 lg:right-0 sm:right-7 bottom-6 sm:bottom-24 justify-between py-6 bg-zinc-700   flex flex-row lg:flex-col md:flex-col sm:flex-col items-center sm:justify-between sm:gap-2 lg:m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 sm:pt-4 sm:pb-4">
+    <div className="fixed left-7 right-0 lg:right-0 sm:right-7 bottom-6 sm:bottom-24 justify-between py-6 bg-zinc-700   flex flex-row lg:flex-col md:flex-col sm:flex-col items-center sm:justify-between sm:gap-2 lg:m-7 border rounded-xl z-50 sm:h-96 sm:w-14 w-80 h-10 ">
       <Link
         activeClass="active bg-orange-400 rounded-full scale-50"
         to="home"
