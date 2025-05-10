@@ -5,7 +5,7 @@ const CardLayout = () => {
         <div className="rounded-lg shadow-lg py-4 px-4 w-full text-center text-white border sm:max-w-sm">
           <div className="flex flex-row sm:flex-row items-center sm:justify-between sm:gap-4 gap-32 mb-2 sm:mb-">
             <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-3xl lg:text-3xl ">Meliana</h1>
-            <p className="text-sm md:text-base sm:text-base sm:mt-2">Front End Developer</p>
+            <p className="text-sm md:text-base sm:text-base sm:mt-2">Frontend Engineer</p>
           </div>
           <img
             className="rounded-lg mx-auto w-full h-auto sm:w-full"
