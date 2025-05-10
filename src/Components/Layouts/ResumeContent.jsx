@@ -14,6 +14,18 @@ const ResumeContent = () => {
             <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 md:h16 ml-2"></div>
           </div>
           <div className="ml-4">
+            <div className="text-lg">2025</div>
+            <div className="text-xl font-semibold md:text-base">PT Minilemon Nusantara</div>
+            <div className="text-xl text-neutral-500">Frontend Developer</div>
+          </div>
+        </div>
+
+        <div className="flex flex-row">
+          <div className="flex flex-col">
+            <div className="border-slate-300 border rounded-xl w-4 h-4 "></div>
+            <div className="bg-slate-300 w-[0.5px] h-24 sm:h-20 md:h16 ml-2"></div>
+          </div>
+          <div className="ml-4">
             <div className="text-lg">2024</div>
             <div className="text-xl font-semibold md:text-base">Bootcmp Harisenin.com</div>
             <div className="text-xl text-neutral-500">Fullstack Development</div>

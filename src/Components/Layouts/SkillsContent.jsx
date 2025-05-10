@@ -1,3 +1,9 @@
+import { SiNextdotjs, SiCss3, SiShadcnui, SiTypescript } from "react-icons/si";
+import { FaHtml5, FaGitAlt, FaGithub } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { RiReactjsFill } from "react-icons/ri";
+import { BiLogoTailwindCss } from "react-icons/bi";
+
 const SkillsContent = () => {
   return (
     <>
@@ -7,29 +13,17 @@ const SkillsContent = () => {
           <p className="pl-2 text-xs">SKILLS</p>
         </div>
 
-        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6 w-full md:w-[250px] lg:w-[450px] sm:w-[350px] brightness-100">
-          <img
-            className="hover:brightness-50"
-            src="/html.svg"
-            alt="HTML Icon"
-          />
-          <img className="hover:brightness-50" src="/css.svg" alt="CSS Icon" />
-          <img
-            className="hover:brightness-50"
-            src="/js.svg"
-            alt="JavaScript Icon"
-          />
-          <img
-            className="hover:brightness-50"
-            src="/reactt.svg"
-            alt="React Icon"
-          />
-          <img
-            className="hover:brightness-50"
-            src="/tailwind.svg"
-            alt="Tailwind Icon"
-          />
-          <img className="hover:brightness-50" src="/git.svg" alt="Git Icon" />
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 mb-6 w-full">
+          <FaHtml5 className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <SiCss3 className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <IoLogoJavascript className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <SiTypescript className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl"/>
+          <RiReactjsFill className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <SiNextdotjs className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <BiLogoTailwindCss className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <SiShadcnui className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <FaGitAlt className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <FaGithub className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
         </div>
       </div>
     </>
