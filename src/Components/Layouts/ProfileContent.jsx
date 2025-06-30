@@ -38,20 +38,23 @@ const ProfileContent = () => {
 
       <div className="text-lg mb-4 text-neutral-500 mt-6 leading-relaxed  sm:mr-20">
         <p>
-          I am a graduate of a Bachelor of Information Engineering and have
-          completed the intensive Fullstack Development bootcamp at
-          Harisenin.com. I have internship experience as a Frontend Developer by
-          working on landing page, registration and login features using the
-          Next JS tech stack, Tailwind CSS, Shadcn UI UI library. Then during
-          bootcamp, I worked on several projects, including a learning video web
-          using JavaScript, React, and Tailwind CSS, as well as a To-Do List
-          application using HTML, CSS, JavaScript, and Fetching APIs to retrieve
-          data and display the results. Focusing on Frontend Development, I
-          mastered HTML, CSS, JavaScript, React, Next JS, Git, Tailwind CSS,
-          Shadcn UI, GitHub Collaboration, GitHub, as well as modern techniques
-          in data retrieval. With the enthusiasm to continue learning and
-          developing, I hope to have a positive influence on the company where I
-          work
+          I am a Bachelor of Information Technology graduate and have completed
+          an intensive Fullstack Development bootcamp at Harisenin.com. I have a
+          4- month internship experience as a Frontend Developer working on
+          landing page, registration, and login features using the Next JS,
+          Tailwind CSS, Shadcn UI technology stack. In addition to focusing on
+          the frontend, I am currently also exploring and learning to build
+          websites and backends with several tech stacks that I use, namely Nest
+          JS, Supabase and Firebase, MySQL and PostgreSQL databases. Then during
+          the bootcamp, I worked on several projects, including a learning video
+          website using JavaScript, React, and Tailwind CSS, as well as a To-Do
+          List application using HTML, CSS, JavaScript, and Fetching API to
+          retrieve data and display the results. Focusing on Frontend
+          Development, I have mastered HTML, CSS, JavaScript, React, Next JS,
+          Supabase, Firebase, MySQL, PostgreSQL, Git, Tailwind CSS, Shadcn UI,
+          GitHub Collaboration, GitHub, and modern techniques in data retrieval.
+          With the spirit to continue learning and developing, I hope to have a
+          positive influence on the company where I work.
         </p>
         <br />
         <p>

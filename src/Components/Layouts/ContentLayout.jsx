@@ -3,7 +3,7 @@ import ProfileContent from "./ProfileContent";
 import ResumeContent from "./ResumeContent";
 import SkillsContent from "./SkillsContent";
 import PortfolioContent from "./PortfolioContent";
-
+import ContactContent from "./ContactContent"
 const ContentLayout = () => {
     return(
         <div className="sm:ml-[60px] md:ml-[430px] p-4">
@@ -11,7 +11,8 @@ const ContentLayout = () => {
           <ProfileContent/>
           <ResumeContent/>
           <SkillsContent/>
-          <PortfolioContent/>  
+          <PortfolioContent/>
+          <ContactContent />  
         </div>
     )
 }

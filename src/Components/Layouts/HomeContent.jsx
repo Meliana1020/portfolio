@@ -1,6 +1,6 @@
 const HomeContent = () => {
     return(
-        <div className="mt-20 text-white" id="home">
+        <div className=" text-white" id="home">
         <div className="flex flex-row border p-2 rounded-lg w-fit justify-start mb-10">
           <img src="/home.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">INTRODUCE</p>
