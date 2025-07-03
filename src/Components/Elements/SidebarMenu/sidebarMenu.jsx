@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { FaHome, FaUser, FaBriefcase, FaWindowRestore } from "react-icons/fa";
 import { TbTools } from "react-icons/tb";
