@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://portfolio-meliana.vercel.app"
+    "https:/portfolio-production-c2ad.up.railway.app"
   ],
   methods: ["POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"]
