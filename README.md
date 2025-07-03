@@ -1,8 +1,69 @@
-# React + Vite
+# Portfolio Monorepo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Struktur Project
 
-Currently, two official plugins are available:
+```
+portfolio/
+├── frontend/      # React/Next.js app
+├── backend/       # Express.js + Firebase API
+├── .github/       # Workflow CI/CD
+├── README.md
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur
+
+- Frontend (React/Next.js) untuk portfolio
+- Backend (Express.js) dengan Firestore & Firebase Storage
+- Kirim Email via Nodemailer
+- CI/CD dengan GitHub Actions
+- Deploy: Frontend (Vercel), Backend (Railway)
+
+## Cara Menjalankan Lokal
+
+### 1. Jalankan Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### 2. Jalankan Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Testing
+
+- Cek endpoint backend di [http://localhost:5000/api/health](http://localhost:5000/api/health)
+- Arahkan API URL di frontend ke backend lokal jika develop.
+
+## CI/CD
+
+- Build dan lint otomatis setiap push/PR (lihat `.github/workflows/main.yml`)
+- Deploy otomatis: 
+  - Frontend: [Vercel](https://vercel.com)
+  - Backend: [Railway](https://railway.app)
+
+## Deployment
+
+### Frontend (Vercel)
+- Root directory: `frontend/`
+- Atur environment variable (`REACT_APP_API_URL` → URL backend)
+
+### Backend (Railway)
+- Root directory: `backend/`
+- Atur environment variable (.env via Railway dashboard)
+- Upload `serviceAccountKey.json` via Railway (jangan di-push ke repo)
+
+## Kontribusi
+
+- Fork repo, buat branch baru, PR ke `main`.
+- Ikuti struktur folder dan standar kode.
+
+## Lisensi
+
+MIT
