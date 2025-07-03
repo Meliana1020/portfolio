@@ -19,7 +19,7 @@ const CardLayout = () => {
           </div>
           <button className="mt-2 bg-gray-300 text-black text-xs md:text-sm font-medium py-2 px-4 rounded-lg w-full"
            onClick={() =>
-            (window.location.href = "https://drive.google.com/file/d/1qM3CP2ztkasDo0qUT4Y-oaDwNSPo_CuJ/view?usp=sharing")
+            (window.location.href = "https://drive.google.com/drive/u/0/folders/1b2Xkkquob4fBicOD-qjStCSk7OcY_fYb")
           }>
             Download CV
           </button>

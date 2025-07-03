@@ -3,6 +3,12 @@ import { FaHtml5, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
+import { SiNestjs } from "react-icons/si";
+import { RiSupabaseFill } from "react-icons/ri";
+import { SiFirebase } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { BiLogoFigma } from "react-icons/bi";
+import { SiNotion } from "react-icons/si";
 
 const SkillsContent = () => {
   return (
@@ -24,6 +30,12 @@ const SkillsContent = () => {
           <SiShadcnui className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
           <FaGitAlt className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
           <FaGithub className="hover:brightness-50 text-6xl sm:text-7xl md:text-8xl" />
+          <SiNestjs className="hover:text-orange-600 text-6xl sm:text-7xl md:text-8xl"/>
+          <SiFirebase className="hover:text-orange-600text-6xl sm:text-7xl md:text-8xl"/>
+          <SiExpress className="hover:text-orange-600 text-6xl sm:text-7xl md:text-8xl"/>
+          <RiSupabaseFill className="hover:text-orange-600 text-6xl sm:text-7xl md:text-8xl"/>
+          <BiLogoFigma className="hover:text-orange-600 text-6xl sm:text-7xl md:text-8xl"/>
+          <SiNotion className="hover:text-orange-600 text-6xl sm:text-7xl md:text-8xl"/>
         </div>
       </div>
     </>

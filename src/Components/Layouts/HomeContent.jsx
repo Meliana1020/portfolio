@@ -1,6 +1,6 @@
 const HomeContent = () => {
     return(
-        <div className=" text-white" id="home">
+        <div className="lg:mt-10 text-white justify-center" id="home">
         <div className="flex flex-row border p-2 rounded-lg w-fit justify-start mb-10">
           <img src="/home.svg" alt="" className="w-4" />
           <p className="pl-2 text-xs">INTRODUCE</p>
@@ -15,7 +15,6 @@ const HomeContent = () => {
             love what I do.{" "}
           
         </p>
-    
       </div>
     )
 }

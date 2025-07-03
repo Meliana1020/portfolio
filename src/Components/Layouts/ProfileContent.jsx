@@ -1,6 +1,6 @@
 const ProfileContent = () => {
   return (
-    <div className="mt-96 sm:mt-22 text-white" id="profile">
+    <div className="lg:mt-56 sm:mt-22 text-white" id="profile">
       <div className="flex flex-row border  p-2 rounded-lg w-fit mb-12">
         <img src="/clarity_tools.svg" alt="" className="w-4" />
         <p className="pl-2 text-xs">ABOUTE ME</p>
