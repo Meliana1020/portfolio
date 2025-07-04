@@ -9,12 +9,20 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://portfolio-meliana.vercel.app"
+];
+
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://portfolio-meliana.vercel.app",
-  ],
-  methods: ["POST", "OPTIONS"],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"]
 }));
 
