@@ -26,6 +26,8 @@ app.use(cors({
   allowedHeaders: ["Content-Type"]
 }));
 
+app.options("*", cors());
+
 app.post("/api/contact", async (req, res) => {
   const { name, email, phone, message } = req.body;
 
