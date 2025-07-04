@@ -13,7 +13,7 @@ portfolio/
 ## Fitur
 
 - Frontend (React/Next.js) untuk portfolio
-- Backend (Express.js) dengan Firestore & Firebase Storage
+- Backend (Express.js)
 - Kirim Email via Nodemailer
 - CI/CD dengan GitHub Actions
 - Deploy: Frontend (Vercel), Backend (Railway)
@@ -58,12 +58,3 @@ npm run dev
 - Root directory: `backend/`
 - Atur environment variable (.env via Railway dashboard)
 - Upload `serviceAccountKey.json` via Railway (jangan di-push ke repo)
-
-## Kontribusi
-
-- Fork repo, buat branch baru, PR ke `main`.
-- Ikuti struktur folder dan standar kode.
-
-## Lisensi
-
-MIT
