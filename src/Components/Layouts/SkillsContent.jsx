@@ -7,7 +7,6 @@ import { FaHtml5, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill, RiSupabaseFill } from "react-icons/ri";
 import { BiLogoTailwindCss, BiLogoFigma, BiLogoPostgresql } from "react-icons/bi";
-
 const SkillsContent = () => {
   const skills = {
     "Frontend": [

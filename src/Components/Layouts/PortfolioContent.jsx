@@ -3,6 +3,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa";
+import { SiDaisyui } from "react-icons/si";
+
 const PortfolioContent = () => {
   return (
     <>
@@ -60,6 +62,7 @@ const PortfolioContent = () => {
               <IoLogoJavascript className="w-10 h-10 brightness-50 hover:brightness-100" />
               <RiReactjsFill className="w-10 h-10 brightness-50 hover:brightness-100" />
               <BiLogoTailwindCss className="w-10 h-10 brightness-50 hover:brightness-100" />
+               <SiDaisyui className="w-10 h-10 brightness-50 hover:brightness-100" />
             </div>
           </div>
         </div>

@@ -1,66 +1,55 @@
+import profileData from "../../data/profile";
+import SocialIcon from "../Elements/social-icon";
+
 const CardLayout = () => {
+  const {
+    name,
+    role,
+    location,
+    email,
+    cvLink,
+    image,
+    socials,
+  } = profileData;
+
   return (
     <div className="w-full h-full">
-      <div className="bg-black text-white flex flex-col lg:flex-row items-center justify-start m-4">
+      <div className="bg-black text-white flex flex-col lg:flex-row items-center justify-start m-2">
         <div className="rounded-lg shadow-lg py-4 px-4 w-full text-center text-white border sm:max-w-sm">
-          <div className="flex flex-row sm:flex-row items-center sm:justify-between sm:gap-4 gap-32 mb-2 sm:mb-">
-            <h1 className="text-2xl font-base mt-2 sm:mb-0 md:text-3xl lg:text-3xl ">Meliana</h1>
-            <p className="text-sm md:text-base sm:text-base sm:mt-2">Frontend Engineer</p>
+          
+          <div className="flex items-center justify-between sm:gap-4 gap-32 mb-2">
+            <h1 className="text-2xl font-base mt-2 md:text-3xl">{name}</h1>
+            <p className="text-sm md:text-base">{role}</p>
           </div>
+
           <img
             className="rounded-lg mx-auto w-full h-auto sm:w-full"
-            src="/profile2.jpg"
-            alt="Meliana"
+            src={image}
+            alt={name}
           />
-          
-          <div className="mb-2 mt-4 sm:m-2 flex flex-col items-center">
-            <p className=" text-lg font-bold md:text-sm mb-2 sm:m-22">Purbalingga, Jawa Tengah</p>
-            <p className="text-sm md:text-sm">melianaa1020@gmail.com</p>
+
+          <div className="mb-2 mt-4 flex flex-col items-center">
+            <p className="text-lg font-bold md:text-sm mb-2">{location}</p>
+            <p className="text-sm md:text-sm">{email}</p>
           </div>
-          <button className="mt-2 bg-gray-300 text-black text-xs md:text-sm font-medium py-2 px-4 rounded-lg w-full"
-           onClick={() =>
-            (window.location.href = "https://drive.google.com/drive/u/0/folders/1b2Xkkquob4fBicOD-qjStCSk7OcY_fYb")
-          }>
+
+          <button
+            onClick={() => window.open(cvLink, "_blank")}
+            className="mt-2 bg-gray-300 text-black text-xs md:text-sm font-medium py-2 px-4 rounded-lg w-full"
+          >
             Download CV
           </button>
 
-          <div className="flex justify-center gap-8 mt-4 sm:mt-2 ">
-            <img 
-              className="w-6 h-8 md:w-8 md:h-8 brightness-100 hover:brightness-50" 
-              src="/linkedin.svg" 
-              alt="LinkedIn"
-              onClick={() =>
-                (window.location.href = "https://www.linkedin.com/in/meliana-07a72823a/")
-              }
-               />
-            <img 
-              className="w-8 h-8 md:w-8 md:h-8 brightness-100 hover:brightness-50" 
-              src="/github.svg" 
-              alt="GitHub"
-              onClick={() =>
-                (window.location.href = "https://github.com/Meliana1020")
-              } 
-              />
-            <img 
-              className="w-6 h-8 md:w-8 md:h-8 brightness-100 hover:brightness-50" 
-              src="/medium.svg" 
-              alt="Medium" 
-              onClick={() =>
-                (window.location.href = "https://medium.com/@m7607038")
-              }
-              />
-            <img 
-              className="w-6 h-8 md:w-8 md:h-8 brightness-100 hover:brightness-50" 
-              src="/wa.svg" 
-              alt="whatsapp" 
-              onClick={() =>
-                (window.location.href = "https://wa.me/6285718354228")
-              }
-              />
+          <div className="flex justify-center gap-8 mt-4">
+            {socials.map((item, index) => (
+              <SocialIcon key={index} {...item} />
+            ))}
           </div>
-          
-          <div className="flex justify-center mt-4 sm:mt-2">
-            <p className="text-xs md:text-sm">© 2024 Meliana. All Rights Reserved</p>
+
+          <div className="flex justify-center mt-4">
+            <p className="text-xs md:text-sm">
+              © 2024 {name}. All Rights Reserved
+            </p>
           </div>
         </div>
       </div>

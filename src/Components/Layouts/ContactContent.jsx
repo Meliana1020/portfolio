@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactContent = () => {
-  const [form, setForm] = useState({ name: "", email: "", phone: "" , message: "" });
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
+  const formRef = useRef(null);
 
   useEffect(() => {
     if (status) {
@@ -14,12 +21,12 @@ const ContactContent = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    
+
     if (name === "phone") {
-      const cleanedValue = value.replace(/[^\d\s\+\-\(\)]/g, '');
-      setForm(prev => ({ ...prev, [name]: cleanedValue }));
+      const cleanedValue = value.replace(/[^\d\s\+\-\(\)]/g, "");
+      setForm((prev) => ({ ...prev, [name]: cleanedValue }));
     } else {
-      setForm(prev => ({ ...prev, [name]: value }));
+      setForm((prev) => ({ ...prev, [name]: value }));
     }
   };
 
@@ -27,31 +34,35 @@ const ContactContent = () => {
     e.preventDefault();
     setLoading(true);
     setStatus("");
+
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (res.ok) {
-        setStatus("success");
-        setForm({ name: "", email: "", phone: "", message: "" });
-      } else {
-        setStatus("error");
-      }
-    } catch (err) {
+      const result = await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
+      console.log(result.text);
+      setStatus("success");
+      setForm({ name: "", email: "", phone: "", message: "" });
+    } catch (error) {
+      console.error(error);
       setStatus("error");
     }
+
     setLoading(false);
   };
 
   return (
-    <div className="text-white mt-24 w-full lg:w-[90%] " id="contact">
+    <div className="text-white mt-24 w-full lg:w-[90%]" id="contact">
       <div className="flex flex-row border p-2 rounded-lg w-fit justify-start mb-4">
-          <img src="/chat.png" alt="" className="w-4" />
-          <p className="pl-2 text-xs">CONTACT ME</p>
-        </div>
+        <img src="/chat.png" alt="" className="w-4" />
+        <p className="pl-2 text-xs">CONTACT ME</p>
+      </div>
+
       <form
+        ref={formRef}
         onSubmit={handleSubmit}
         className="
           w-full
@@ -64,7 +75,6 @@ const ContactContent = () => {
           flex flex-col gap-4
           mb-20
           lg:mb-0
-          lg:-right-full
         "
       >
         {status === "success" && (
@@ -116,7 +126,7 @@ const ContactContent = () => {
             type="tel"
             value={form.phone}
             onChange={handleChange}
-            placeholder="Your Phone Number "
+            placeholder="Your Phone Number"
             required
             className="input input-bordered w-full"
           />
