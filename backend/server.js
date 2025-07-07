@@ -15,22 +15,13 @@ const allowedOrigins = [
 ];
 
 app.use(cors({
-  origin: function (origin, callback) {
-    const allowedOrigins = [
-      "http://localhost:5173",
-      "https://portfolio-meliana.vercel.app"
-    ];
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: [
+    "http://localhost:5173",
+    "https://portfolio-meliana.vercel.app"
+  ],
   methods: ["GET", "POST", "OPTIONS"],
-  allowedHeaders: ["Content-Type"]
+  credentials: true
 }));
-
-app.options("*", cors());
 
 app.post("/api/contact", async (req, res) => {
   const { name, email, phone, message } = req.body;
