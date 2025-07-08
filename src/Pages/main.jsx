@@ -1,4 +1,4 @@
-import SidebarMenu from "../Components/Fragments/SidebarMenu/sidebarMenu";
+import SidebarMenu from "../Components/Fragments/sidebarMenu";
 import CardLayout from "../Components/Layouts/CardLayout";
 import ContentLayout from "../Components/Layouts/ContentLayout";
 
